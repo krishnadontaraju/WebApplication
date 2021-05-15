@@ -15,5 +15,6 @@ public class FirstServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<h3>Welcome to the first test Program with Connection</h3>");
         out.close();
+
     }
 }
